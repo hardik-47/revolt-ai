@@ -71,3 +71,7 @@ Open your web browser (Chrome or Firefox recommended) and navigate to [http://lo
 1. Click the "Start Talking" button.  
 2. Your browser will ask for permission to use your microphone. You must click **Allow**.  
 3. Begin speaking to the Revolt Motors AI assistant.
+
+##Project Video
+
+<video src="vid.mp4" controls width="600"></video>
