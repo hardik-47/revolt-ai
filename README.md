@@ -27,8 +27,8 @@ This project is a real-time, low-latency conversational AI voice assistant that 
 ### 2. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
-cd <your-repository-name>
+git https://github.com/hardik-47/revolt-ai.git
+cd revolt-ai
 ```
 
 ### 3. Install Dependencies
