@@ -1,0 +1,53 @@
+/* public/styles.css */
+
+/* --- General Body & Font Styling --- */
+body {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text for contrast */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+/* --- Heading Styling --- */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+/* --- Main Button Styling --- */
+#talkButton {
+    background-color: #007bff; /* A nice blue for the primary action */
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px; /* Fully rounded corners for a modern look */
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.2);
+}
+
+#talkButton:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+#talkButton:active {
+    transform: scale(0.98); /* Slightly shrink button when clicked */
+}
+
+/* --- Status Text Styling --- */
+#status {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    color: #aaa; /* A softer gray for status text */
+    min-height: 1.5rem; /* Prevents layout shift when text changes */
+}
